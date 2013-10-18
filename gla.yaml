@@ -1,0 +1,48 @@
+--- # Params
+# version parameters
+release: chembl_10
+vsCompara: 62
+# program calls
+needlepath: /nfs/panda/chembl/felix/Library/EMBOSS-6.4.0/emboss/needle
+# input files
+ksAccFile: data/ks_protein.txt
+gsAccFile: data/gs_protein.txt
+ksAliFile: data/ks_sequence.aln 
+gsAliFile: data/gs_alignment.fa
+# Data base connection
+user: <insert username>
+pword: <insert password>
+host: <insert hostname>
+port: <insert port>
+# parameters
+species: [Rattus norvegicus, Homo sapiens]
+homologyTypeParalogs: within_species_paralog
+homologyTypeOrthologs: [ortholog_one2one,
+                        ortholog_one2many, 
+                        ortholog_many2many,
+                        apparent_ortholog_one2one,
+                        apparent_ortholog_one2one]
+sitePositions:
+    kinase:
+         [57, 68, 73, 74, 75, 76, 77, 78, 84, 86, 87, 89, 158, 159, 
+         160, 161, 162, 165, 202, 205, 209, 224, 226, 227, 228, 230, 231, 234, 253, 
+         254, 255, 256, 318, 319, 320, 321, 322, 323, 324, 354, 355, 356, 358, 359, 
+         440, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 535, 536, 
+         537, 538, 539, 541, 542, 546, 547, 607]
+    gpcr: 
+         [65, 69, 72, 76,132, 133,  136, 140,164, 165, 168, 169, 172, 176,
+         239, 243,350, 351, 354, 355,358,485, 489, 492, 493, 496,532, 536, 540, 542]
+backupSpecies: ["Homo sapiens", 
+                "rattus norvegicus", 
+                "Mus musculus",
+                "Bos taurus",
+                "Escherichia coli",
+                "Cavia porcellus",
+                "Candida albicans",
+                "Sus scrofa",
+                "Gallus gallus",
+                "Canis familiaris",
+                "Drosophila melanogaster",
+                "Xenopus laevis"]
+
+
