@@ -20,7 +20,7 @@ This script runs through the routines necessary to assess the potency difference
 This script runs through the routines necessary to assess the potency difference observed when comparing measurements for the same compound taken against a huma
 n target and its rat ortholog.
 
-An overview of the analyses conducted for this study can be found in the wiki section. All R code used to carry out the analyses is specified in the wiki pages. 
+An overview of the analyses conducted for this study can be found in the wiki section. All R code used to carry out the analyses is specified in the wiki pages.Input data files can be downloaded [here](http://www.ebi.ac.uk/~fkrueger/repo/globalAnalysis/data/). 
 
 ## Get in touch
 
