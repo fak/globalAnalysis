@@ -3,7 +3,7 @@
 release: chembl_10
 vsCompara: 62
 # program calls
-needlepath: /nfs/panda/chembl/felix/Library/EMBOSS-6.4.0/emboss/needle
+needlepath: <insert path to needle program>
 # input files
 ksAccFile: data/ks_protein.txt
 gsAccFile: data/gs_protein.txt
